@@ -1,0 +1,9 @@
+nohup: ignoring input
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.09444537504284987 -rho 0.10283810808033379 -Tend 100 -dumpfreq 99.99 -icx 0.3352031819522381 -icy 0.2 -icz 0.25089965462684627 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
