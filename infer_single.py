@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import nibabel as nib
 import tools
 import os
-import shutil
 from scipy import ndimage
 from simulator import runForwardSolver
 
@@ -41,11 +40,15 @@ def runLMI(registrationReference, patientFlair, patientT1, patientAffine=None, r
     return predictedTumorPatientSpace, parameterDir, referenceBackTransformed
 
 if __name__ == "__main__":
+    # nohup python -u main_LMI_inference.py  > test.out 2>&1 &
+
+    os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
     # Paths
-    wmSegmentationNiiPath = "/mlcube_io0/Patient-00000/00000-wm.nii.gz"
-    tumorsegPath = "/mlcube_io0/Patient-00000/00000-tumorseg.nii.gz"
-    resultPath = "/app/tmp"
+    patientPath = "/mnt/Drive2/lucas/datasets/data_GliODIL_essential/data_716"
+    wmSegmentationNiiPath = os.path.join(patientPath, "t1_wm.nii.gz")
+    tumorsegPath = os.path.join(patientPath, "segm.nii.gz")
+    resultPath = os.path.join(patientPath, "lmi")
 
     os.makedirs(resultPath, exist_ok=True)
 
@@ -61,9 +64,9 @@ if __name__ == "__main__":
 
     predictedTumorPatientSpace, parameterDir, wmBackTransformed = runLMI(patientWM, patientFlair, patientT1, patientAffine=patientWMAffine)
 
-    np.save("/mlcube_io1/00000_lmi_parameters.npy", parameterDir)
+    np.save(os.path.join(resultPath, "lmi_parameters.npy"), parameterDir)
 
-    nib.save(nib.Nifti1Image(predictedTumorPatientSpace, patientWMAffine), "/mlcube_io1/00000.nii.gz")
+    nib.save(nib.Nifti1Image(predictedTumorPatientSpace, patientWMAffine), os.path.join(resultPath, 'lmi_tumor_patientSpace.nii'))
 
-    nib.save(nib.Nifti1Image(wmBackTransformed, patientWMAffine), "/mlcube_io1/00000_lmi_wm_patientSpace.nii.gz")
+    nib.save(nib.Nifti1Image(wmBackTransformed, patientWMAffine), os.path.join(resultPath, 'lmi_wm_patientSpace.nii'))
     print("LMI prediction succesful.")
