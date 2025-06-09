@@ -5,7 +5,7 @@ ENV NVIDIA_VISIBLE_DEVICES=all
 ENV NVIDIA_DRIVER_CAPABILITIES=compute,utility
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    python3 python3-pip python3-dev git cuda-nvcc-12-2 && \
+    python3 python3-pip python3-dev git cuda-nvcc-12-2 libgl1 && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 RUN python3 -m pip install --no-cache-dir --upgrade pip
 
