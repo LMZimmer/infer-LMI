@@ -446,7 +446,8 @@ def convertTumorToPatientSpace(atlasTumor, patientWM, registration, patientAffin
     antsTumor = ants.from_numpy(atlasTumor)
 
     if patientAffine is not None:
-        targetRegistration = _ants_from_numpy_with_affine(patientWM, patientAffine)
+        flipped = _flip_affine(patientAffine, 1, patientWM.shape)
+        targetRegistration = _ants_from_numpy_with_affine(np.flip(patientWM, axis=1), flipped)
     else:
         targetRegistration = ants.from_numpy(patientWM)
 
