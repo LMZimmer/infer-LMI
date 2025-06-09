@@ -61,7 +61,7 @@ nib.save(nib.Nifti1Image(patientGM, patientWMAffine), resultPath+'_gm.nii.gz')
 #%%
 
 
-predictedTumorPatientSpace, parameterDir, wmBackTransformed = main_LMI_inference.runLMI(patientWM_GM, 1.0 *patientFlair, 1.0* patientT1,registrationMode = "WM_GM")
+predictedTumorPatientSpace, parameterDir, wmBackTransformed = main_LMI_inference.runLMI(patientWM_GM, 1.0 *patientFlair, 1.0* patientT1, patientAffine=patientWMAffine, registrationMode = "WM_GM")
 
 end_time = time.time()
 

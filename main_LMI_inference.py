@@ -9,10 +9,10 @@ from simulator import runForwardSolver
 
 
 #%% run LMI WM is needed for registration
-def runLMI(registrationReference, patientFlair, patientT1, registrationMode = "WM"):
+def runLMI(registrationReference, patientFlair, patientT1, patientAffine=None, registrationMode = "WM"):
     atlasPath = "./Atlasfiles"
 
-    wmTransformed, transformedTumor, registration = tools.getAtlasSpaceLMI_InputArray(registrationReference, patientFlair, patientT1, atlasPath, getAlsoWMTrafo=True)
+    wmTransformed, transformedTumor, registration = tools.getAtlasSpaceLMI_InputArray(registrationReference, patientFlair, patientT1, atlasPath, getAlsoWMTrafo=True, patientAffine=patientAffine)
 
     #%% get the LMI prediction
     prediction = np.array(tools.getNetworkPrediction(transformedTumor))[:6]
@@ -34,8 +34,8 @@ def runLMI(registrationReference, patientFlair, patientT1, registrationMode = "W
     np.save('tumor.npy', tumor)
 
     # register back to patient space
-    predictedTumorPatientSpace = tools.convertTumorToPatientSpace(tumor, registrationReference, registration)
-    referenceBackTransformed = tools.convertTumorToPatientSpace(wmTransformed, registrationReference, registration)
+    predictedTumorPatientSpace = tools.convertTumorToPatientSpace(tumor, registrationReference, registration, patientAffine=patientAffine)
+    referenceBackTransformed = tools.convertTumorToPatientSpace(wmTransformed, registrationReference, registration, patientAffine=patientAffine)
 
     return predictedTumorPatientSpace, parameterDir, referenceBackTransformed
 
@@ -62,7 +62,7 @@ if __name__ == "__main__":
     patientWM = patientWMNib.get_fdata()	
     patientWMAffine = patientWMNib.affine
 
-    predictedTumorPatientSpace, parameterDir, wmBackTransformed = runLMI(patientWM, patientFlair, patientT1)
+    predictedTumorPatientSpace, parameterDir, wmBackTransformed = runLMI(patientWM, patientFlair, patientT1, patientAffine=patientWMAffine)
 
     np.save(os.path.join(resultPath, "lmi_parameters.npy"), parameterDir)
 

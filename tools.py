@@ -361,13 +361,34 @@ def convert(mu1, mu2, x, y, z, selectedTEnd = 100):
 
 
 # register the pateints WM onto the atlas WM
-def getAtlasSpaceLMI_InputArray(registrationReference, flairSeg, T1Seg, atlasPath, getAlsoWMTrafo = False, registrationMode = "WM"):
+def _ants_from_numpy_with_affine(arr, affine):
+    spacing = np.sqrt((affine[:3, :3] ** 2).sum(0))
+    direction = affine[:3, :3] / spacing
+    origin = affine[:3, 3]
+    return ants.from_numpy(arr, spacing=tuple(spacing), origin=tuple(origin), direction=direction)
+
+
+def _flip_affine(affine, axis, shape):
+    flipped = affine.copy()
+    flipped[:3, axis] *= -1
+    flipped[:3, 3] += flipped[:3, axis] * (shape[axis] - 1)
+    return flipped
+
+
+def getAtlasSpaceLMI_InputArray(registrationReference, flairSeg, T1Seg, atlasPath, getAlsoWMTrafo = False, registrationMode = "WM", patientAffine=None):
     print("start forward registration")
 
     #LMI works on Atlas where axis 1 is flipped
-    antsWMPatient = ants.from_numpy(np.flip(registrationReference, axis=1))
-    antsFlairPatient = ants.from_numpy(np.flip(flairSeg, axis=1))
-    antsT1Patient = ants.from_numpy(np.flip(T1Seg, axis=1))
+    if patientAffine is not None:
+        flipped = _flip_affine(patientAffine, 1, registrationReference.shape)
+        antsWMPatient = _ants_from_numpy_with_affine(np.flip(registrationReference, axis=1), flipped)
+        antsFlairPatient = _ants_from_numpy_with_affine(np.flip(flairSeg, axis=1), flipped)
+        antsT1Patient = _ants_from_numpy_with_affine(np.flip(T1Seg, axis=1), flipped)
+    else:
+        #LMI works on Atlas where axis 1 is flipped
+        antsWMPatient = ants.from_numpy(np.flip(registrationReference, axis=1))
+        antsFlairPatient = ants.from_numpy(np.flip(flairSeg, axis=1))
+        antsT1Patient = ants.from_numpy(np.flip(T1Seg, axis=1))
 
     if registrationMode == "WM": #register only with WM
         atlasImg = np.load(atlasPath+'/anatomy/npzstuffData_0001.npz')["data"][:,:,:,2]
@@ -420,10 +441,14 @@ def getNetworkPrediction(transformedTumor):
 
     return convPred
 
-def convertTumorToPatientSpace(atlasTumor, patientWM, registration):
+def convertTumorToPatientSpace(atlasTumor, patientWM, registration, patientAffine=None):
 
     antsTumor = ants.from_numpy(atlasTumor)
-    targetRegistration = ants.from_numpy(patientWM)
+
+    if patientAffine is not None:
+        targetRegistration = _ants_from_numpy_with_affine(patientWM, patientAffine)
+    else:
+        targetRegistration = ants.from_numpy(patientWM)
 
     antsPredictedTumorPatientSpace = ants.apply_transforms(targetRegistration, antsTumor, registration['invtransforms'])
 
