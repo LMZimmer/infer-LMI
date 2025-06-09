@@ -370,8 +370,12 @@ def _ants_from_numpy_with_affine(arr, affine):
 
 def _flip_affine(affine, axis, shape):
     flipped = affine.copy()
+    # store the original orientation vector
+    orig_vec = affine[:3, axis].copy()
+    # adjust translation based on the original orientation
+    flipped[:3, 3] += orig_vec * (shape[axis] - 1)
+    # flip the orientation
     flipped[:3, axis] *= -1
-    flipped[:3, 3] += flipped[:3, axis] * (shape[axis] - 1)
     return flipped
 
 

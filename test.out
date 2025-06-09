@@ -3,7 +3,7 @@ start forward registration
 finished registration
  
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.11232656258665169 -rho 0.10356865721991852 -Tend 100 -dumpfreq 99.99 -icx 0.3452023364603519 -icy 0.5954656302928925 -icz 0.3231191799044609 -vtk 1 -N 16 -adaptive 0
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.08632724644338552 -rho 0.10408678246864504 -Tend 100 -dumpfreq 99.99 -icx 0.323011702299118 -icy 0.6204813778400422 -icz 0.32218457385897636 -vtk 1 -N 16 -adaptive 0
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
  
 129, 129, 129
