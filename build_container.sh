@@ -1,16 +1,16 @@
 #!/bin/bash
 
 # build
-docker build -t gliodil -f Dockerfile .
+docker build -t lmi -f Dockerfile .
 
 # save as tar
-docker save -o gliodil.tar gliodil:latest
+docker save -o lmi.tar lmi:latest
 
 # remove image
-docker rmi gliodil:latest
+docker rmi lmi:latest
 
 # load image from tar
-#docker load -i gliodil.tar
+#docker load -i lmi.tar
 
 # test
 #docker run -e --gpus '"device=0"' 
@@ -22,6 +22,6 @@ docker rmi gliodil:latest
 #dpcker rm <hash>
 
 # remove image
-#docker rmi gliodil:latest
+#docker rmi lmi:latest
 
 
