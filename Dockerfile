@@ -6,9 +6,12 @@ ENV NVIDIA_DRIVER_CAPABILITIES=compute,utility
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     python3 python3-pip python3-dev git cuda-nvcc-12-2 \
-    libgl1 libxrender1 libtbb12 libtbbmalloc2 && \
-    ln -s /usr/lib/x86_64-linux-gnu/libtbb.so.12 /usr/lib/x86_64-linux-gnu/libtbb.so.2 && \
+    libgl1 libxrender1 curl && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
+# Install older Intel TBB runtime for the precompiled simulator binary
+RUN curl -L -o /tmp/libtbb2.deb \
+        http://archive.ubuntu.com/ubuntu/pool/universe/t/tbb/libtbb2_2020.1-2_amd64.deb && \
+    dpkg -i /tmp/libtbb2.deb && rm /tmp/libtbb2.deb
 RUN python3 -m pip install --no-cache-dir --upgrade pip
 
 WORKDIR /app
