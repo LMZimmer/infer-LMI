@@ -40,22 +40,36 @@ def runLMI(registrationReference, patientFlair, patientT1, patientAffine=None, r
     return predictedTumorPatientSpace, parameterDir, referenceBackTransformed
 
 if __name__ == "__main__":
-    # nohup python -u main_LMI_inference.py  > test.out 2>&1 &
+    # nohup python -u infer_single.py  > test.out 2>&1 &
 
-    os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "4"
 
     # Paths
+    """
     patientPath = "/mnt/Drive2/lucas/datasets/data_GliODIL_essential/data_716"
     wmSegmentationNiiPath = os.path.join(patientPath, "t1_wm.nii.gz")
     tumorsegPath = os.path.join(patientPath, "segm.nii.gz")
     resultPath = os.path.join(patientPath, "lmi")
 
     os.makedirs(resultPath, exist_ok=True)
-
+    
     # Load tumor core / edema
     tumorNib = np.rint(nib.load(tumorsegPath).get_fdata()).astype(np.uint8)
     patientFlair = (tumorNib==3).astype(np.uint8)
     patientT1 = ((tumorNib==1) | (tumorNib==4)).astype(np.uint8)
+    """
+    
+    patientPath = "/mnt/Drive2/lucas/datasets/GLIODIL/tgm016/preop/preop/processed"
+    wmSegmentationNiiPath = os.path.join(patientPath, "tissue_segmentation/wm_pbmap.nii.gz")
+    tumorsegPath = os.path.join(patientPath, "tumor_segmentation/tumor_seg.nii.gz")
+    resultPath = os.path.join(patientPath, "growth_models/lmi_test")
+
+    os.makedirs(resultPath, exist_ok=True)
+
+    # Load tumor core / edema
+    tumorNib = np.rint(nib.load(tumorsegPath).get_fdata()).astype(np.uint8)
+    patientFlair = (tumorNib==2).astype(np.uint8)
+    patientT1 = ((tumorNib==1) | (tumorNib==3)).astype(np.uint8)
 
     # Load WM, save affine
     patientWMNib = nib.load(wmSegmentationNiiPath)

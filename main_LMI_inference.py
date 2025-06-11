@@ -51,8 +51,8 @@ if __name__ == "__main__":
 
     # Load tumor core / edema
     tumorNib = np.rint(nib.load(tumorsegPath).get_fdata()).astype(np.uint8)
-    patientFlair = (tumorNib==3).astype(np.uint8)
-    patientT1 = ((tumorNib==1) | (tumorNib==4)).astype(np.uint8)
+    patientFlair = (tumorNib==2).astype(np.uint8)
+    patientT1 = ((tumorNib==1) | (tumorNib==3)).astype(np.uint8)
 
     # Load WM, save affine
     patientWMNib = nib.load(wmSegmentationNiiPath)
