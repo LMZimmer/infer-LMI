@@ -110,4 +110,4 @@ if __name__ == "__main__":
             nib.save(nib.Nifti1Image(predictedTumorPatientSpace, patientWMAffine), os.path.join(resultPath, 'lmi_pred.nii.gz'))
             nib.save(nib.Nifti1Image(wmBackTransformed, patientWMAffine), os.path.join(resultPath, 'lmi_wm_patientSpace.nii.gz'))
    
-   print("Done.")
+    print("Done.")
