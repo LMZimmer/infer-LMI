@@ -96,18 +96,21 @@ if __name__ == "__main__":
             resultPath = str(patient_dir / "processed/growth_models/lmi")
             os.makedirs(resultPath, exist_ok=True)
 
-            tumorNib = np.rint(nib.load(tumorsegPath).get_fdata()).astype(np.uint8)
-            patientFlair = (tumorNib==2).astype(np.uint8)
-            patientT1 = ((tumorNib==1) | (tumorNib==3)).astype(np.uint8)
+            try:
+                tumorNib = np.rint(nib.load(tumorsegPath).get_fdata()).astype(np.uint8)
+                patientFlair = (tumorNib==2).astype(np.uint8)
+                patientT1 = ((tumorNib==1) | (tumorNib==3)).astype(np.uint8)
 
-            patientWMNib = nib.load(wmSegmentationNiiPath)
-            patientWM = patientWMNib.get_fdata()
-            patientWMAffine = patientWMNib.affine
+                patientWMNib = nib.load(wmSegmentationNiiPath)
+                patientWM = patientWMNib.get_fdata()
+                patientWMAffine = patientWMNib.affine
 
-            predictedTumorPatientSpace, parameterDir, wmBackTransformed = runLMI(patientWM, patientFlair, patientT1, patientAffine=patientWMAffine)
+                predictedTumorPatientSpace, parameterDir, wmBackTransformed = runLMI(patientWM, patientFlair, patientT1, patientAffine=patientWMAffine)
 
-            np.save(os.path.join(resultPath, "lmi_parameters.npy"), parameterDir)
-            nib.save(nib.Nifti1Image(predictedTumorPatientSpace, patientWMAffine), os.path.join(resultPath, 'lmi_pred.nii.gz'))
-            nib.save(nib.Nifti1Image(wmBackTransformed, patientWMAffine), os.path.join(resultPath, 'lmi_wm_patientSpace.nii.gz'))
+                np.save(os.path.join(resultPath, "lmi_parameters.npy"), parameterDir)
+                nib.save(nib.Nifti1Image(predictedTumorPatientSpace, patientWMAffine), os.path.join(resultPath, 'lmi_pred.nii.gz'))
+                nib.save(nib.Nifti1Image(wmBackTransformed, patientWMAffine), os.path.join(resultPath, 'lmi_wm_patientSpace.nii.gz'))
+            except Exception as e:
+                print(f"Exception for {patient_ind}: e")
    
     print("Done.")
