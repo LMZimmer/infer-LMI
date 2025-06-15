@@ -1,0 +1,6 @@
+nohup: ignoring input
+2025-06-15 15:26:02.962 | INFO     | parsing:set_root_dir:236 - New root_dir set successfully.
+2025-06-15 15:26:02.962 | INFO     | parsing:load:213 - Successfully loaded 39 patients from /home/home/lucas/projects/gbm_bench/gbm_bench/data/datasets/upenn_gbm.json.
+Predicting 0/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00036/06-28-2006-NA-BRAINSPECTROSCOPY-56286
+start forward registration

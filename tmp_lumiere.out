@@ -1,0 +1,633 @@
+nohup: ignoring input
+2025-06-14 17:25:31.019 | INFO     | parsing:load:213 - Successfully loaded 63 patients from /home/home/lucas/projects/gbm_bench/gbm_bench/data/datasets/lumiere.json.
+Predicting 0/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-001/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.016833603380123387 -rho 0.10663437067534011 -Tend 100 -dumpfreq 99.99 -icx 0.5734440952539444 -icy 0.326576840877533 -icz 0.5305816017091274 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 1/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-002/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.004591575166278563 -rho 0.11179138155721675 -Tend 100 -dumpfreq 99.99 -icx 0.29537682011723515 -icy 0.40525169968605046 -icz 0.54320420473814 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 2/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-004/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.1987056903972765 -rho 0.08295980670538448 -Tend 100 -dumpfreq 99.99 -icx 0.6137415260076522 -icy 0.48355904556810864 -icz 0.22913836538791654 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 3/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-005/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.1545895417521503 -rho 0.10212203106175294 -Tend 100 -dumpfreq 99.99 -icx 0.5272173658013344 -icy 0.34122427701950075 -icz 0.22506514936685562 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 4/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-006/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.1454151650759041 -rho 0.13106162881882066 -Tend 100 -dumpfreq 99.99 -icx 0.5814714938402176 -icy 0.602028575539589 -icz 0.4063290402293205 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 5/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-007/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.225 -rho 0.08460709544879143 -Tend 100 -dumpfreq 99.99 -icx 0.6135263413190841 -icy 0.3877665311098099 -icz 0.2523980140686035 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 6/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-008/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.09102677859957373 -rho 0.10291447038272786 -Tend 100 -dumpfreq 99.99 -icx 0.29749391749501225 -icy 0.6676721811294557 -icz 0.3790057562291622 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 7/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-009/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.021283899708091924 -rho 0.08170588531375714 -Tend 100 -dumpfreq 99.99 -icx 0.31207555681467053 -icy 0.3325947701931 -icz 0.5253512434661388 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 8/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-010/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.08200834717372572 -rho 0.13225433803901437 -Tend 100 -dumpfreq 99.99 -icx 0.6663746386766434 -icy 0.3225556552410126 -icz 0.32169073745608323 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 9/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-011/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.015760645266752464 -rho 0.0958553651293378 -Tend 100 -dumpfreq 99.99 -icx 0.2509362071752548 -icy 0.7180516481399537 -icz 0.34175885692238805 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 10/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-012/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.02737925161002955 -rho 0.12266542203483928 -Tend 100 -dumpfreq 99.99 -icx 0.19962393641471862 -icy 0.39607357382774355 -icz 0.30252013877034184 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 11/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-013/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.05831469672409339 -rho 0.11556468054097885 -Tend 100 -dumpfreq 99.99 -icx 0.6567823320627212 -icy 0.46820080056786545 -icz 0.3127694077789783 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 12/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-014/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.15487670889340852 -rho 0.08258691218399465 -Tend 100 -dumpfreq 99.99 -icx 0.16523756086826324 -icy 0.35384936332702643 -icz 0.32245184183120723 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 13/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-015/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.09074115120467174 -rho 0.10194212446859174 -Tend 100 -dumpfreq 99.99 -icx 0.5811422914266585 -icy 0.323373818397522 -icz 0.31400466263294213 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 14/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-017/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.06292648107308318 -rho 0.08969760189435355 -Tend 100 -dumpfreq 99.99 -icx 0.3551776498556137 -icy 0.6941033482551575 -icz 0.30684419050812717 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 15/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-018/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.0844687225845143 -rho 0.0869504460320257 -Tend 100 -dumpfreq 99.99 -icx 0.6239788621664046 -icy 0.5201172716915607 -icz 0.21939491480588913 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 16/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-021/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.04642440231186379 -rho 0.11180883442102982 -Tend 100 -dumpfreq 99.99 -icx 0.6856212109327315 -icy 0.6090987980365754 -icz 0.2828136026859283 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 17/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-022/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.023737196595458664 -rho 0.12454141997194766 -Tend 100 -dumpfreq 99.99 -icx 0.6252726584672927 -icy 0.49562382679432637 -icz 0.3402523919939995 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 18/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-023/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.01776429054637019 -rho 0.048405572746648334 -Tend 100 -dumpfreq 99.99 -icx 0.3167416371405124 -icy 0.41475301384925845 -icz 0.23683354556560515 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 19/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-025/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.005398137450274626 -rho 0.08230043603515481 -Tend 100 -dumpfreq 99.99 -icx 0.27689566314220426 -icy 0.6235421091318132 -icz 0.5426300674676895 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 20/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-027/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.04661611905031067 -rho 0.13533975189160274 -Tend 100 -dumpfreq 99.99 -icx 0.5185914479196071 -icy 0.6076760739088058 -icz 0.22039047181606292 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 21/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-028/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.07794846884621677 -rho 0.10008273629047784 -Tend 100 -dumpfreq 99.99 -icx 0.5128643438220024 -icy 0.6290442049503326 -icz 0.4405875013209879 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 22/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-029/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.028376974258327133 -rho 0.0922977393522849 -Tend 100 -dumpfreq 99.99 -icx 0.3415838882327079 -icy 0.340609747171402 -icz 0.4673680834472179 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 23/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-030/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.038737021281198075 -rho 0.09212969314328459 -Tend 100 -dumpfreq 99.99 -icx 0.260768187046051 -icy 0.5312032081186773 -icz 0.2544287785887718 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 24/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-031/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.020984195618603523 -rho 0.08850843993938637 -Tend 100 -dumpfreq 99.99 -icx 0.2976433731615543 -icy 0.2708701491355896 -icz 0.3746999356895685 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 25/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-032/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.015944831958004547 -rho 0.09320065612168028 -Tend 100 -dumpfreq 99.99 -icx 0.516197370737791 -icy 0.2718362092971802 -icz 0.4971119575202465 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 26/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-033/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.00010000000000000002 -rho 0.027008984028152695 -Tend 100 -dumpfreq 99.99 -icx 0.42206926830112934 -icy 0.47277489677071577 -icz 0.4524824351072311 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 27/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-034/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.030008666249161063 -rho 0.12446217058394338 -Tend 100 -dumpfreq 99.99 -icx 0.632406535744667 -icy 0.41130562424659733 -icz 0.44019757332280274 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 28/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-037/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.20691062809367547 -rho 0.0979396949692131 -Tend 100 -dumpfreq 99.99 -icx 0.40036126300692554 -icy 0.35243996083736423 -icz 0.22430705279111862 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 29/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-038/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.07606987113232329 -rho 0.09519446273463494 -Tend 100 -dumpfreq 99.99 -icx 0.3136020354926586 -icy 0.6591269314289094 -icz 0.5400359921157359 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 30/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-039/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.07109798866726134 -rho 0.09104656865365984 -Tend 100 -dumpfreq 99.99 -icx 0.6094490110874176 -icy 0.4938529251143337 -icz 0.30185473486781117 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 31/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-040/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.00010000000000000002 -rho 0.027008984028152695 -Tend 100 -dumpfreq 99.99 -icx 0.42206926830112934 -icy 0.47277489677071577 -icz 0.4524824351072311 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 32/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-041/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.00010000000000000002 -rho 0.027008984028152695 -Tend 100 -dumpfreq 99.99 -icx 0.42206926830112934 -icy 0.47277489677071577 -icz 0.4524824351072311 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 33/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-042/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.053296921570691526 -rho 0.11124753649854638 -Tend 100 -dumpfreq 99.99 -icx 0.16111102402210234 -icy 0.44712835848331456 -icz 0.31616881117224693 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 34/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-043/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.0050459726555200195 -rho 0.0916295718962175 -Tend 100 -dumpfreq 99.99 -icx 0.27369084060192106 -icy 0.44948281943798074 -icz 0.6479171589016913 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 35/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-045/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.00010000000000000002 -rho 0.027008984028152695 -Tend 100 -dumpfreq 99.99 -icx 0.42206926830112934 -icy 0.47277489677071577 -icz 0.4524824351072311 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 36/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-046/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.06649963197357917 -rho 0.07758168123314141 -Tend 100 -dumpfreq 99.99 -icx 0.28659480810165405 -icy 0.45406035780906684 -icz 0.2999834574759006 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 37/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-048/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.13984565432249724 -rho 0.11139392735395685 -Tend 100 -dumpfreq 99.99 -icx 0.59084874689579 -icy 0.6204002141952516 -icz 0.3001346670091152 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 38/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-049/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.007495598113228299 -rho 0.1137783292507529 -Tend 100 -dumpfreq 99.99 -icx 0.20801325440406798 -icy 0.37134754061698916 -icz 0.47647355273365966 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 39/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-050/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.039506931760147995 -rho 0.08230311107825657 -Tend 100 -dumpfreq 99.99 -icx 0.6218073785305023 -icy 0.5374886430799961 -icz 0.20059900432825087 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 40/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-051/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.19693958850407192 -rho 0.10795199783034912 -Tend 100 -dumpfreq 99.99 -icx 0.2722849607467651 -icy 0.5871850252151489 -icz 0.34271607473492616 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 41/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-052/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.09116988387233653 -rho 0.09278942793886191 -Tend 100 -dumpfreq 99.99 -icx 0.5975071460008621 -icy 0.42779543399810793 -icz 0.3341388553380966 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 42/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-055/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.05645780306721083 -rho 0.11757872376046546 -Tend 100 -dumpfreq 99.99 -icx 0.21608330309391022 -icy 0.36068432927131655 -icz 0.3484773382544517 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 43/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-059/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.01020590521943236 -rho 0.07489292277070154 -Tend 100 -dumpfreq 99.99 -icx 0.3019832424819469 -icy 0.4944921804592014 -icz 0.61176660656929 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 44/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-060/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.012521066876069681 -rho 0.10163638554077153 -Tend 100 -dumpfreq 99.99 -icx 0.5623505853116512 -icy 0.5714727699756623 -icz 0.5656495347619056 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 45/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-061/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.09975911603316073 -rho 0.09914757157678324 -Tend 100 -dumpfreq 99.99 -icx 0.5935150831937789 -icy 0.43693383634090427 -icz 0.41732922643423076 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 46/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-062/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.07858129508685438 -rho 0.11453506007609093 -Tend 100 -dumpfreq 99.99 -icx 0.33704425841569896 -icy 0.7652029156684876 -icz 0.5348111003637314 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 47/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-064/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.060321136258159554 -rho 0.12376425189008503 -Tend 100 -dumpfreq 99.99 -icx 0.436489900201559 -icy 0.3896152526140213 -icz 0.40266722887754436 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 48/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-066/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.09853895853649472 -rho 0.06391513540628044 -Tend 100 -dumpfreq 99.99 -icx 0.16714448928833006 -icy 0.6107794612646104 -icz 0.27449755370616913 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 49/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-067/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.00010000000000000002 -rho 0.027008984028152695 -Tend 100 -dumpfreq 99.99 -icx 0.42206926830112934 -icy 0.47277489677071577 -icz 0.4524824351072311 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 50/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-068/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.1902690308667221 -rho 0.07351977786276699 -Tend 100 -dumpfreq 99.99 -icx 0.5250805251300334 -icy 0.7280141592025757 -icz 0.32685878425836556 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 51/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-071/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.16371299031267053 -rho 0.09078439211016215 -Tend 100 -dumpfreq 99.99 -icx 0.537981779873371 -icy 0.24070135951042176 -icz 0.30419502407312393 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 52/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-072/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.0628926056519168 -rho 0.09351485763179428 -Tend 100 -dumpfreq 99.99 -icx 0.31555494144558904 -icy 0.2505784332752228 -icz 0.24606996476650236 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 53/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-073/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.06417887551808206 -rho 0.14712031200758002 -Tend 100 -dumpfreq 99.99 -icx 0.5862589269876479 -icy 0.7206452727317811 -icz 0.41784617658704515 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 54/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-075/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.010825896531126191 -rho 0.07794384802914255 -Tend 100 -dumpfreq 99.99 -icx 0.22196213304996487 -icy 0.36071894764900214 -icz 0.4941499143838882 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 55/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-077/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.13568732623603774 -rho 0.07195066512729267 -Tend 100 -dumpfreq 99.99 -icx 0.22231251299381255 -icy 0.297015392780304 -icz 0.3493954874575138 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 56/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-078/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.03129288307156106 -rho 0.11089748896546253 -Tend 100 -dumpfreq 99.99 -icx 0.26869897544384 -icy 0.48929950483143336 -icz 0.4897306948900222 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 57/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-080/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.042112283380378084 -rho 0.10095397588210435 -Tend 100 -dumpfreq 99.99 -icx 0.2323057174682617 -icy 0.2825263321399689 -icz 0.33081615492701527 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 58/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-086/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.11273688778650154 -rho 0.09789954299345523 -Tend 100 -dumpfreq 99.99 -icx 0.5781240999698638 -icy 0.28020377159118653 -icz 0.2843216329813003 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 59/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-087/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.021693908134508645 -rho 0.08737672953319418 -Tend 100 -dumpfreq 99.99 -icx 0.22332083880901335 -icy 0.5495480537414552 -icz 0.4876991681754589 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 60/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-089/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.04243648497752424 -rho 0.1021167841046031 -Tend 100 -dumpfreq 99.99 -icx 0.21173063218593596 -icy 0.5193149335682392 -icz 0.2970275856554508 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 61/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-090/week-000-1
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.11796266378622342 -rho 0.12966989451785052 -Tend 100 -dumpfreq 99.99 -icx 0.45597468689084053 -icy 0.5096219811588527 -icz 0.32689650058746333 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 62/63...
+/mnt/Drive2/lucas/datasets/LUMIERE/Imaging/Patient-091/week-000
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.028731667369860592 -rho 0.09853974903438198 -Tend 100 -dumpfreq 99.99 -icx 0.22184614837169647 -icy 0.39848875105381015 -icz 0.3591549482196569 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Done.
