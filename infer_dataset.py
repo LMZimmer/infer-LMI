@@ -11,10 +11,30 @@ from parsing import LongitudinalDataset
 
 
 #%% run LMI WM is needed for registration
-def runLMI(registrationReference, patientFlair, patientT1, patientAffine=None, registrationMode = "WM"):
+def runLMI(
+    registrationReference,
+    patientFlair,
+    patientT1,
+    patientAffine=None,
+    registrationMode="WM",
+    padding=10,
+):
     atlasPath = "./Atlasfiles"
 
-    wmTransformed, transformedTumor, registration = tools.getAtlasSpaceLMI_InputArray(registrationReference, patientFlair, patientT1, atlasPath, getAlsoWMTrafo=True, patientAffine=patientAffine)
+    reg_ref = registrationReference
+    if padding > 0 and patientAffine is not None:
+        reg_ref, patientAffine = tools.pad_image_and_affine(registrationReference, patientAffine, padding)
+        patientFlair, _ = tools.pad_image_and_affine(patientFlair, patientAffine, padding)
+        patientT1, _ = tools.pad_image_and_affine(patientT1, patientAffine, padding)
+
+    wmTransformed, transformedTumor, registration = tools.getAtlasSpaceLMI_InputArray(
+        reg_ref,
+        patientFlair,
+        patientT1,
+        atlasPath,
+        getAlsoWMTrafo=True,
+        patientAffine=patientAffine,
+    )
 
     #%% get the LMI prediction
     prediction = np.array(tools.getNetworkPrediction(transformedTumor))[:6]
@@ -36,8 +56,20 @@ def runLMI(registrationReference, patientFlair, patientT1, patientAffine=None, r
     np.save('tumor.npy', tumor)
 
     # register back to patient space
-    predictedTumorPatientSpace = tools.convertTumorToPatientSpace(tumor, registrationReference, registration, patientAffine=patientAffine)
-    referenceBackTransformed = tools.convertTumorToPatientSpace(wmTransformed, registrationReference, registration, patientAffine=patientAffine)
+    predictedTumorPatientSpace = tools.convertTumorToPatientSpace(
+        tumor,
+        reg_ref,
+        registration,
+        patientAffine=patientAffine,
+        padding=padding,
+    )
+    referenceBackTransformed = tools.convertTumorToPatientSpace(
+        wmTransformed,
+        reg_ref,
+        registration,
+        patientAffine=patientAffine,
+        padding=padding,
+    )
 
     return predictedTumorPatientSpace, parameterDir, referenceBackTransformed
 
@@ -114,7 +146,12 @@ if __name__ == "__main__":
                 patientWM = patientWMNib.get_fdata()
                 patientWMAffine = patientWMNib.affine
 
-                predictedTumorPatientSpace, parameterDir, wmBackTransformed = runLMI(patientWM, patientFlair, patientT1, patientAffine=patientWMAffine)
+                predictedTumorPatientSpace, parameterDir, wmBackTransformed = runLMI(
+                    patientWM,
+                    patientFlair,
+                    patientT1,
+                    patientAffine=patientWMAffine,
+                )
 
                 np.save(os.path.join(resultPath, "lmi_parameters.npy"), parameterDir)
                 nib.save(nib.Nifti1Image(predictedTumorPatientSpace, patientWMAffine), os.path.join(resultPath, 'lmi_pred.nii.gz'))

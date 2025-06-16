@@ -379,14 +379,37 @@ def _flip_affine(affine, axis, shape):
     return flipped
 
 
-def getAtlasSpaceLMI_InputArray(registrationReference, flairSeg, T1Seg, atlasPath, getAlsoWMTrafo = False, registrationMode = "WM", patientAffine=None):
+def pad_image_and_affine(arr, affine, padding):
+    """Pad image array and update affine accordingly."""
+    if padding <= 0:
+        return arr, affine
+    padded = np.pad(arr, ((padding, padding),) * 3, mode="constant")
+    new_affine = affine.copy()
+    for i in range(3):
+        new_affine[:3, 3] -= new_affine[:3, i] * padding
+    return padded, new_affine
+
+
+def getAtlasSpaceLMI_InputArray(
+    registrationReference,
+    flairSeg,
+    T1Seg,
+    atlasPath,
+    getAlsoWMTrafo=False,
+    registrationMode="WM",
+    patientAffine=None,
+):
     print("start forward registration")
 
     #LMI works on Atlas where axis 1 is flipped
     if patientAffine is not None:
         flipped = _flip_affine(patientAffine, 1, registrationReference.shape)
-        antsWMPatient = _ants_from_numpy_with_affine(np.flip(registrationReference, axis=1), flipped)
-        antsFlairPatient = _ants_from_numpy_with_affine(np.flip(flairSeg, axis=1), flipped)
+        antsWMPatient = _ants_from_numpy_with_affine(
+            np.flip(registrationReference, axis=1), flipped
+        )
+        antsFlairPatient = _ants_from_numpy_with_affine(
+            np.flip(flairSeg, axis=1), flipped
+        )
         antsT1Patient = _ants_from_numpy_with_affine(np.flip(T1Seg, axis=1), flipped)
     else:
         #LMI works on Atlas where axis 1 is flipped
@@ -445,8 +468,13 @@ def getNetworkPrediction(transformedTumor):
 
     return convPred
 
-def convertTumorToPatientSpace(atlasTumor, patientWM, registration, patientAffine=None):
-
+def convertTumorToPatientSpace(
+    atlasTumor,
+    patientWM,
+    registration,
+    patientAffine=None,
+    padding=0,
+):
     antsTumor = ants.from_numpy(atlasTumor)
 
     if patientAffine is not None:
@@ -455,9 +483,15 @@ def convertTumorToPatientSpace(atlasTumor, patientWM, registration, patientAffin
     else:
         targetRegistration = ants.from_numpy(patientWM)
 
-    antsPredictedTumorPatientSpace = ants.apply_transforms(targetRegistration, antsTumor, registration['invtransforms'])
+    antsPredictedTumorPatientSpace = ants.apply_transforms(
+        targetRegistration, antsTumor, registration['invtransforms']
+    )
 
-    return np.flip(antsPredictedTumorPatientSpace.numpy(), axis=1)
+    predicted = np.flip(antsPredictedTumorPatientSpace.numpy(), axis=1)
+    if padding > 0:
+        predicted = predicted[padding:-padding, padding:-padding, padding:-padding]
+
+    return predicted
 
 
 
