@@ -4,3 +4,391 @@ nohup: ignoring input
 Predicting 0/39...
 /mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00036/06-28-2006-NA-BRAINSPECTROSCOPY-56286
 start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.10393774425516052 -rho 0.1035490223314609 -Tend 100 -dumpfreq 99.99 -icx 0.203081938624382 -icy 0.34848351478576667 -icz 0.370411342382431 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 1/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00042/05-03-2006-NA-BRAINROUTINE-36973
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.06069958539346703 -rho 0.08792149283919322 -Tend 100 -dumpfreq 99.99 -icx 0.27059315145015717 -icy 0.2866852760314942 -icz 0.3016071282327175 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 2/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00045/11-30-2005-NA-BRAINROUTINE-33552
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.03351673349374979 -rho 0.11619924366546647 -Tend 100 -dumpfreq 99.99 -icx 0.25075193643569943 -icy 0.28104736208915715 -icz 0.41384197808802126 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 3/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00051/12-10-2005-NA-BRAINROUTINE-19669
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.010695268768377264 -rho 0.09402155139136006 -Tend 100 -dumpfreq 99.99 -icx 0.5944679081439971 -icy 0.5015673696529122 -icz 0.5094977967441081 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 4/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00052/02-15-2006-NA-BRAINROUTINE-50850
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.12726226623948278 -rho 0.07722477971567679 -Tend 100 -dumpfreq 99.99 -icx 0.21344286501407622 -icy 0.6671979308128357 -icz 0.3506975449621677 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 5/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00055/02-18-2007-NA-BRAINROUTINE-22179
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.018004500185703667 -rho 0.11009288898352443 -Tend 100 -dumpfreq 99.99 -icx 0.592392149567604 -icy 0.5678551852703095 -icz 0.5170958913862704 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 6/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00084/01-06-2007-NA-BRAINROUTINE-93179
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.11609614598767655 -rho 0.10226747721485621 -Tend 100 -dumpfreq 99.99 -icx 0.20999935269355774 -icy 0.5480874121189119 -icz 0.41143537284806364 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 7/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00086/09-29-2007-NA-BRAINROUTINE-29179
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.10396952993478567 -rho 0.08616058594704747 -Tend 100 -dumpfreq 99.99 -icx 0.26606722474098204 -icy 0.25519447922706606 -icz 0.3325580887496471 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 8/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00088/09-12-2009-NA-BRAINFUNCTIONAL-20318
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.06073498289783026 -rho 0.10278919778881411 -Tend 100 -dumpfreq 99.99 -icx 0.1671810746192932 -icy 0.364620265364647 -icz 0.4197304143570363 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 9/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00122/11-10-2008-NA-BRAINBRAIN TUMOR-14560
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.0925911082253355 -rho 0.07328914189820207 -Tend 100 -dumpfreq 99.99 -icx 0.3301737397909164 -icy 0.27310947179794315 -icz 0.18534252792596817 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 10/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00128/11-01-2008-NA-BrainTumor-50124
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.05170155999253338 -rho 0.08382357435542874 -Tend 100 -dumpfreq 99.99 -icx 0.5097858816385269 -icy 0.2945287346839905 -icz 0.38972063586115835 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 11/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00129/07-24-2008-NA-BrainTumor-50141
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.0237034216271421 -rho 0.10831277912406055 -Tend 100 -dumpfreq 99.99 -icx 0.33513002768158906 -icy 0.6972411930561067 -icz 0.363298175483942 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 12/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00130/09-11-2006-NA-BrainTumor-72341
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.01739353457736609 -rho 0.11309744584382969 -Tend 100 -dumpfreq 99.99 -icx 0.3408750556409359 -icy 0.7194200754165649 -icz 0.3435256972908973 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 13/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00133/05-17-2008-NA-MR HEAD W AND WO IV CONTRAST TUMOR NEW-59386
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.07155155368221162 -rho 0.07899233197465047 -Tend 100 -dumpfreq 99.99 -icx 0.21825222969055175 -icy 0.5446332454681397 -icz 0.2846027925610542 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 14/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00134/12-11-2008-NA-BRAINBRAIN TUMOR-18308
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.07643977380542605 -rho 0.09003446232515014 -Tend 100 -dumpfreq 99.99 -icx 0.5902027010917663 -icy 0.5274464704096318 -icz 0.2765057310461998 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 15/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00140/03-15-2009-NA-BrainTumor-11707
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.07875973297305762 -rho 0.07682503914173681 -Tend 100 -dumpfreq 99.99 -icx 0.28189546167850493 -icy 0.6095251888036728 -icz 0.18684047758579253 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 16/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00141/09-11-2008-NA-BrainTumor-33573
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.00010000000000000002 -rho 0.027008984028152695 -Tend 100 -dumpfreq 99.99 -icx 0.42206926830112934 -icy 0.47277489677071577 -icz 0.4524824351072311 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 17/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00145/09-10-2008-NA-BrainTumor-56590
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.029879713831506824 -rho 0.09305083351854065 -Tend 100 -dumpfreq 99.99 -icx 0.5442377977073192 -icy 0.30733358263969424 -icz 0.4297271327115595 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 18/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00148/08-27-2008-NA-BrainTumor-64715
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.10574895386815847 -rho 0.1205139851075852 -Tend 100 -dumpfreq 99.99 -icx 0.6609688282012939 -icy 0.37778644263744354 -icz 0.34727750495076176 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 19/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00160/11-20-2005-NA-BRAINROUTINE-00863
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.2063508240049207 -rho 0.11866449590025745 -Tend 100 -dumpfreq 99.99 -icx 0.36331746801733966 -icy 0.3574718922376633 -icz 0.24127659797668455 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 20/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00183/08-07-2005-NA-BRAINROUTINE-66659
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.12366891408091986 -rho 0.08453485302179431 -Tend 100 -dumpfreq 99.99 -icx 0.4904604755342006 -icy 0.38069605827331543 -icz 0.3062875263392925 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 21/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00197/04-19-2007-NA-BRAINROUTINE-50440
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.043023320385647275 -rho 0.1441525622057984 -Tend 100 -dumpfreq 99.99 -icx 0.5018195815384388 -icy 0.7243225097656252 -icz 0.5651659101247787 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 22/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00219/08-18-2006-NA-BRAINHEAD-55237
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.04290394231458748 -rho 0.11985580152866826 -Tend 100 -dumpfreq 99.99 -icx 0.19417495131492613 -icy 0.40402765572071075 -icz 0.5024532191455364 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 23/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00267/07-26-2008-NA-BrainTumor-98928
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.06143369760437633 -rho 0.11338551191872279 -Tend 100 -dumpfreq 99.99 -icx 0.6160129964351654 -icy 0.38471790552139284 -icz 0.3933308474719524 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 24/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00280/09-15-2006-NA-BrainTumor-73538
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.07667696043607604 -rho 0.10002794638424188 -Tend 100 -dumpfreq 99.99 -icx 0.22264879643917082 -icy 0.4308298349380494 -icz 0.3126417852938175 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 25/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00285/07-08-2007-NA-BrainTumor-96892
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.07854257528290325 -rho 0.08331938078478521 -Tend 100 -dumpfreq 99.99 -icx 0.29340824410319327 -icy 0.48201186247169975 -icz 0.3313598372042179 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 26/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00295/08-05-2009-NA-BrainTumor-55717
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.12167198845728491 -rho 0.07810167958618516 -Tend 100 -dumpfreq 99.99 -icx 0.6391295164823532 -icy 0.5776943147182465 -icz 0.28151406943798063 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 27/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00301/11-10-2007-NA-BrainTumor-60416
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.05735907243541138 -rho 0.11588502265107753 -Tend 100 -dumpfreq 99.99 -icx 0.19145370423793792 -icy 0.4294716894626618 -icz 0.3236995622515678 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 28/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00302/02-24-2007-NA-BrainTumor-82760
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.04569550890582544 -rho 0.10315193026383553 -Tend 100 -dumpfreq 99.99 -icx 0.19715357422828672 -icy 0.573140773177147 -icz 0.2967234291136265 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 29/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00307/07-06-2007-NA-BrainTumor-67492
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.05705501867118135 -rho 0.09757444442400477 -Tend 100 -dumpfreq 99.99 -icx 0.32494986429810524 -icy 0.53274569734931 -icz 0.6158844888210296 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 30/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00312/04-11-2009-NA-BrainTumor-94610
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.07948143427111527 -rho 0.07735944105564328 -Tend 100 -dumpfreq 99.99 -icx 0.524757707118988 -icy 0.47382798120379455 -icz 0.16371290981769562 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 31/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00314/03-21-2008-NA-BrainTumor-69338
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.03740153954392073 -rho 0.10814456182362177 -Tend 100 -dumpfreq 99.99 -icx 0.194485205411911 -icy 0.33437448740005493 -icz 0.41831486979499455 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 32/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00320/03-26-2007-NA-MR HEAD W AND WO IV CONTRAST-88692
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.09569630083964098 -rho 0.09390734362848953 -Tend 100 -dumpfreq 99.99 -icx 0.3582937955856323 -icy 0.42018936872482304 -icz 0.42723318757489315 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 33/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00332/02-07-2008-NA-HEADFUNCTIONAL-96202
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.06762463772820484 -rho 0.09552036794592995 -Tend 100 -dumpfreq 99.99 -icx 0.1732435196638107 -icy 0.399183613061905 -icz 0.24272343963384627 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 34/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00344/09-15-2007-NA-BRAINROUTINE-73486
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.051589033302198474 -rho 0.10149119528234894 -Tend 100 -dumpfreq 99.99 -icx 0.6569657504558563 -icy 0.389702969789505 -icz 0.35228830203413963 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 35/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00352/03-28-2010-NA-BRAINSTEALTH-73298
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.051823699116696625 -rho 0.0891459328975547 -Tend 100 -dumpfreq 99.99 -icx 0.5097599752247333 -icy 0.4257411301136017 -icz 0.39442128539085386 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 36/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00353/10-02-2008-NA-BrainTumor-77480
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.05988248153132712 -rho 0.10057083127425598 -Tend 100 -dumpfreq 99.99 -icx 0.24736717045307158 -icy 0.5299226053059102 -icz 0.3478186711668968 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 37/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00354/04-23-2009-NA-MR HEAD W AND WO IV CONTRAST TUMOR NEW-85094
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.09861143009611925 -rho 0.07361060477748216 -Tend 100 -dumpfreq 99.99 -icx 0.6128528892993926 -icy 0.6236012250185013 -icz 0.20312840789556502 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 38/39...
+/mnt/Drive2/lucas/datasets/UPENN-GBM/UPENN-GBM/UPENN-GBM-00355/08-01-2009-NA-BrainTumor-28034
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.023311281003451655 -rho 0.09640888111597772 -Tend 100 -dumpfreq 99.99 -icx 0.2650463432073593 -icy 0.3639323949813843 -icz 0.2704984426498413 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Done.

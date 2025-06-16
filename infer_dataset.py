@@ -48,6 +48,7 @@ if __name__ == "__main__":
     # nohup python -u infer_dataset.py -dataset lumiere -cuda_device 4 > tmp_lumiere.out 2>&1 &
     # nohup python -u infer_dataset.py -dataset rhuh -cuda_device 4 > tmp_rhuh.out 2>&1 &
     # nohup python -u infer_dataset.py -dataset upenn -cuda_device 4 > tmp_upenn.out 2>&1 &
+    # nohup python -u infer_dataset.py -dataset ivygap -cuda_device 4 > tmp_ivygap.out 2>&1 &
     parser = argparse.ArgumentParser()
     parser.add_argument("-cuda_device", type=str, default="0", help="GPU id to run on.")
     parser.add_argument("-dataset", type=str)
@@ -77,7 +78,10 @@ if __name__ == "__main__":
         dataset = LongitudinalDataset(dataset_id="LUMIERE", root_dir=lumiere_root)
         dataset.load(LUMIERE_DIR)
     elif args.dataset == "ivygap":
-        pass
+        IVYGAP_DIR = Path("/home/home/lucas/projects/gbm_bench/gbm_bench/data/datasets/ivygap.json")
+        ivygap_root = "/mnt/Drive2/lucas/datasets/IVYGAP"
+        dataset = LongitudinalDataset(dataset_id="IVYGAP", root_dir=ivygap_root)
+        dataset.load(IVYGAP_DIR)
     if dataset is None:
         raise ValueError(f"Dataset {args.dataset} not implemented.")
 
