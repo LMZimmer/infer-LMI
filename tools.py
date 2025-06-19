@@ -385,8 +385,7 @@ def getAtlasSpaceLMI_InputArray(registrationReference, flairSeg, T1Seg, atlasPat
 
     targetRegistration = ants.from_numpy(atlasImg)
     
-    #reg =  ants.registration( targetRegistration, antsWMPatient, type_of_transform='SyNCC')#, mask=mask, moving_mask=movingMask)
-    reg =  ants.registration( targetRegistration, antsWMPatient, type_of_transform="antsRegistrationSyN[s,2]")
+    reg =  ants.registration( targetRegistration, antsWMPatient, type_of_transform='SyNCC')#, mask=mask, moving_mask=movingMask)
 
     wmPatientTransformed = ants.apply_transforms(targetRegistration, antsWMPatient, reg['fwdtransforms'])
 
@@ -396,7 +395,7 @@ def getAtlasSpaceLMI_InputArray(registrationReference, flairSeg, T1Seg, atlasPat
     tumorTransformed = 0.3333 * (flairTransformed.numpy() > 0.5)  + 0.6666 * (t1Transformed.numpy() > 0.5)
 
     print("finished registration")
-    nib.save(wmPatientTransformed, "/mnt/Drive2/lucas/datasets/RHUH-GBM/Images/DICOM/RHUH-GBM/RHUH-0024/11-10-2013-NA-Craneo-58463/processed/growth_models/lmi_test/wm_middle.nii.gz")  #TODO
+    #nib.save(wmPatientTransformed, "/mnt/Drive2/lucas/datasets/RHUH-GBM/Images/DICOM/RHUH-GBM/RHUH-0024/11-10-2013-NA-Craneo-58463/processed/growth_models/lmi_test/wm_middle.nii.gz")
     if getAlsoWMTrafo:
         return wmPatientTransformed.numpy(), tumorTransformed, reg
     

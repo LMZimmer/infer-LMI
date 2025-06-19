@@ -1,3 +1,4 @@
+import ants
 import numpy as np
 import matplotlib.pyplot as plt
 import nibabel as nib
@@ -107,6 +108,49 @@ if __name__ == "__main__":
                 patient_dir = exam["t1c"].parent
             print(patient_dir)
 
+            # Load tumor core / edema
+            tumorsegPath = str(patient_dir / "processed/tumor_segmentation/tumor_seg.nii.gz")
+            wmSegmentationNiiPath = str(patient_dir / "processed/tumor_segmentation/tumor_seg.nii.gz")
+            resultPath = str(patient_dir / "processed/growth_models/lmi")
+            os.makedirs(resultPath, exist_ok=True)
+
+            try:
+                tumorAnts = ants.resample_image(
+                        image=ants.image_read(tumorsegPath),
+                        resample_params=(129,129,129),
+                        interp_type=1,
+                        use_voxels=True
+                        )
+                tumorNib = np.rint(tumorAnts.to_nibabel().get_fdata()).astype(np.uint8)
+                patientFlair = (tumorNib==2).astype(np.uint8)
+                patientT1 = ((tumorNib==1) | (tumorNib==3)).astype(np.uint8)
+
+                # Load WM, save affine
+                patientWMANTS = ants.resample_image(
+                        image=ants.image_read(wmSegmentationNiiPath),
+                        resample_params=(129,129,129),
+                        interp_type=0,
+                        use_voxels=True
+                        )
+
+                patientWMNib = patientWMANTS.to_nibabel()
+                patientWM = patientWMNib.get_fdata()
+                patientWMAffine = patientWMNib.affine
+
+                predictedTumorPatientSpace, parameterDir, wmBackTransformed = runLMI(
+                        patientWM,
+                        patientFlair,
+                        patientT1
+                        )
+
+                np.save(os.path.join(resultPath, "lmi_parameters.npy"), parameterDir)
+                nib.save(nib.Nifti1Image(predictedTumorPatientSpace, patientWMAffine), os.path.join(resultPath, 'lmi_pred.nii.gz'))
+                nib.save(nib.Nifti1Image(wmBackTransformed, patientWMAffine), os.path.join(resultPath, 'lmi_wm_patientSpace.nii.gz'))
+            except Exception as e:
+                print(f"Exception for {patient_ind}: {e}")
+
+
+            """
             wmSegmentationNiiPath = str(patient_dir / "processed/tissue_segmentation/wm_pbmap.nii.gz")
             tumorsegPath = str(patient_dir / "processed/tumor_segmentation/tumor_seg.nii.gz")
             resultPath = str(patient_dir / "processed/growth_models/lmi")
@@ -132,5 +176,6 @@ if __name__ == "__main__":
                 nib.save(nib.Nifti1Image(wmBackTransformed, patientWMAffine), os.path.join(resultPath, 'lmi_wm_patientSpace.nii.gz'))
             except Exception as e:
                 print(f"Exception for {patient_ind}: {e}")
+            """
    
     print("Done.")
