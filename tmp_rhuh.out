@@ -1,0 +1,19 @@
+nohup: ignoring input
+2025-06-19 13:59:15.739 | INFO     | parsing:load:213 - Successfully loaded 40 patients from /home/home/lucas/projects/gbm_bench/gbm_bench/data/datasets/rhuh.json.
+Predicting 0/40...
+/mnt/Drive2/lucas/datasets/RHUH-GBM/Images/DICOM/RHUH-GBM/RHUH-0001/01-25-2015-NA-RM CEREBRAL6NEURNAV-21029
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.06409413216535853 -rho 0.09234319351987069 -Tend 100 -dumpfreq 99.99 -icx 0.26359092891216274 -icy 0.5187326271086932 -icz 0.33995889797806733 -vtk 1 -N 16 -adaptive 0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	
+ 
+129, 129, 129
+Predicting 1/40...
+/mnt/Drive2/lucas/datasets/RHUH-GBM/Images/DICOM/RHUH-GBM/RHUH-0002/08-20-2016-NA-RM CEREBRO  C-49009
+start forward registration
+finished registration
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+run  /home/home/lucas/projects/dockerize/infer-LMI/simulator/brain -model RD -PatFileName /home/home/lucas/projects/dockerize/infer-LMI/Atlasfiles/anatomy_dat/ -Dw 0.09246950441042304 -rho 0.07126900514646865 -Tend 100 -dumpfreq 99.99 -icx 0.5199280090630054 -icy 0.7375059247016909 -icz 0.3857623841613531 -vtk 1 -N 16 -adaptive 0

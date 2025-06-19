@@ -109,8 +109,8 @@ if __name__ == "__main__":
             print(patient_dir)
 
             # Load tumor core / edema
+            wmSegmentationNiiPath = str(patient_dir / "processed/tissue_segmentation/wm_pbmap.nii.gz")
             tumorsegPath = str(patient_dir / "processed/tumor_segmentation/tumor_seg.nii.gz")
-            wmSegmentationNiiPath = str(patient_dir / "processed/tumor_segmentation/tumor_seg.nii.gz")
             resultPath = str(patient_dir / "processed/growth_models/lmi")
             os.makedirs(resultPath, exist_ok=True)
 
