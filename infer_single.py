@@ -20,8 +20,12 @@ def runLMI(
     atlasPath = "./Atlasfiles"
 
     reg_ref = registrationReference
+    applied_padding = 0
     if padding > 0 and patientAffine is not None:
-        reg_ref, patientAffine = tools.pad_image_and_affine(registrationReference, patientAffine, padding)
+        applied_padding = padding
+        reg_ref, patientAffine = tools.pad_image_and_affine(
+            registrationReference, patientAffine, padding
+        )
         patientFlair, _ = tools.pad_image_and_affine(patientFlair, patientAffine, padding)
         patientT1, _ = tools.pad_image_and_affine(patientT1, patientAffine, padding)
 
@@ -59,14 +63,14 @@ def runLMI(
         reg_ref,
         registration,
         patientAffine=patientAffine,
-        padding=padding,
+        padding=applied_padding,
     )
     referenceBackTransformed = tools.convertTumorToPatientSpace(
         wmTransformed,
         reg_ref,
         registration,
         patientAffine=patientAffine,
-        padding=padding,
+        padding=applied_padding,
     )
 
 
