@@ -97,7 +97,7 @@ if __name__ == "__main__":
     resultPath = os.path.join(patientPath, "growth_models/lmi_test")
     """
 
-    patientPath = "/mnt/Drive2/lucas/datasets/RHUH-GBM/Images/DICOM/RHUH-GBM/RHUH-0025/10-14-2012-NA-RM DE CEREBRO SINCON CONTRASTE-82954/processed/"
+    patientPath = "/mnt/Drive2/lucas/datasets/RHUH-GBM/Images/DICOM/RHUH-GBM/RHUH-0024/11-10-2013-NA-Craneo-58463/processed"
     wmSegmentationNiiPath = os.path.join(patientPath, "tissue_segmentation/wm_pbmap.nii.gz")
     tumorsegPath = os.path.join(patientPath, "tumor_segmentation/tumor_seg.nii.gz")
     resultPath = os.path.join(patientPath, "growth_models/lmi_test")

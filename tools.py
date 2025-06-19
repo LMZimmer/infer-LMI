@@ -444,6 +444,7 @@ def getAtlasSpaceLMI_InputArray(
 
     print("finished registration")
     if getAlsoWMTrafo:
+        nib.save(wmPatientTransformed, "/mnt/Drive2/lucas/datasets/RHUH-GBM/Images/DICOM/RHUH-GBM/RHUH-0024/11-10-2013-NA-Craneo-58463/processed/growth_models/lmi/wm_middle.nii.gz")  #TODO
         return wmPatientTransformed.numpy(), tumorTransformed, reg
     
     return tumorTransformed
