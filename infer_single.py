@@ -39,12 +39,36 @@ def runLMI(registrationReference, patientFlair, patientT1, registrationMode = "W
 
     return predictedTumorPatientSpace, parameterDir, referenceBackTransformed
 
+
 if __name__ == "__main__":
-    
+    # nohup python -u infer_single.py  > test.out 2>&1 &
+
+    os.environ["CUDA_VISIBLE_DEVICES"] = "4"
+
     # Paths
-    wmSegmentationNiiPath = "/mlcube_io0/Patient-00000/00000-wm.nii.gz"
-    tumorsegPath = "/mlcube_io0/Patient-00000/00000-tumorseg.nii.gz"
-    resultPath = "/app/tmp"
+    """
+    patientPath = "/mnt/Drive2/lucas/datasets/data_GliODIL_essential/data_716"
+    wmSegmentationNiiPath = os.path.join(patientPath, "t1_wm.nii.gz")
+    tumorsegPath = os.path.join(patientPath, "segm.nii.gz")
+    resultPath = os.path.join(patientPath, "lmi")
+
+    os.makedirs(resultPath, exist_ok=True)
+    
+    # Load tumor core / edema
+    tumorNib = np.rint(nib.load(tumorsegPath).get_fdata()).astype(np.uint8)
+    patientFlair = (tumorNib==3).astype(np.uint8)
+    patientT1 = ((tumorNib==1) | (tumorNib==4)).astype(np.uint8)
+    
+    patientPath = "/mnt/Drive2/lucas/datasets/GLIODIL/tgm016/preop/preop/processed"
+    wmSegmentationNiiPath = os.path.join(patientPath, "tissue_segmentation/wm_pbmap.nii.gz")
+    tumorsegPath = os.path.join(patientPath, "tumor_segmentation/tumor_seg.nii.gz")
+    resultPath = os.path.join(patientPath, "growth_models/lmi_test")
+    """
+
+    patientPath = "/mnt/Drive2/lucas/datasets/RHUH-GBM/Images/DICOM/RHUH-GBM/RHUH-0024/11-10-2013-NA-Craneo-58463/processed"
+    wmSegmentationNiiPath = os.path.join(patientPath, "tissue_segmentation/wm_pbmap.nii.gz")
+    tumorsegPath = os.path.join(patientPath, "tumor_segmentation/tumor_seg.nii.gz")
+    resultPath = os.path.join(patientPath, "growth_models/lmi_test")
 
     os.makedirs(resultPath, exist_ok=True)
 
@@ -55,7 +79,7 @@ if __name__ == "__main__":
 
     # Load WM, save affine
     patientWMNib = nib.load(wmSegmentationNiiPath)
-    patientWM = patientWMNib.get_fdata()
+    patientWM = patientWMNib.get_fdata()	
     patientWMAffine = patientWMNib.affine
 
     predictedTumorPatientSpace, parameterDir, wmBackTransformed = runLMI(
@@ -64,9 +88,9 @@ if __name__ == "__main__":
         patientT1,
     )
 
-    np.save("/mlcube_io1/00000_lmi_parameters.npy", parameterDir)
+    np.save(os.path.join(resultPath, "lmi_parameters.npy"), parameterDir)
 
-    nib.save(nib.Nifti1Image(predictedTumorPatientSpace, patientWMAffine), "/mlcube_io1/00000.nii.gz")
+    nib.save(nib.Nifti1Image(predictedTumorPatientSpace, patientWMAffine), os.path.join(resultPath, 'lmi_tumor_patientSpace.nii'))
 
-    nib.save(nib.Nifti1Image(wmBackTransformed, patientWMAffine), "/mlcube_io1/00000_lmi_wm_patientSpace.nii.gz")
+    nib.save(nib.Nifti1Image(wmBackTransformed, patientWMAffine), os.path.join(resultPath, 'lmi_wm_patientSpace.nii'))
     print("LMI prediction succesful.")
